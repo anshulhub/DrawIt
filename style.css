@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+
+}
+
+canvas {
+    border: 2px solid gray;
+    max-width: fit-content;
+
+}
+
+.toolbox {
+    background-color: #3b4148;
+    border: 1px solid rebeccapurple;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    padding: 10px;
+    width: 99%;
+}
+
+.toolbox > * {
+    background-color: #fff;
+    background:  #929fac;
+    border: none;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 0.25rem;
+    margin: 0.25rem;
+    height: 45px;
+    width: 45px;
+}
+.toolbox > *:hover{
+    background: #bdc7d1;
+}
+.toolbox > *:focus{
+    outline: none;
+}
+/* .toolbar > *:nth-child(){
+    margin-left: auto;
+    display: none;
+} */
+.toolbox > *:nth-child(5) {
+    background-color: #3b4148;
+align-items: center;
+margin-left: 33%;
+/* margin: auto; */
+padding: 20px;
+align-self: center;
+}
+/* .toolbox:nth-child(5){
+    border: 1px solid red;
+    margin: 50px;
+    padding: 50px;
+
+} */
+.toolbox h2{
+    font-size: 50px;
+    /* display: none; */
+    color: white;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    align-items: center;
+}
+.toolbox h2:hover{
+    color: #a7aeb6;
+}
+.toolbox > *:last-child {
+    border-radius: 40px;
+    height: 50px;
+    width: 50px;
+    margin-left: auto
+}
