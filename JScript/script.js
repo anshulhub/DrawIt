@@ -12,9 +12,13 @@ let color = "black";
 let x = undefined;
 let y = undefined;
 
+ctx.font="40px Comic Sans MS";
+ctx.fillStyle = "lightgray";
+ctx.fillText("Be Creative Here...",600,300);
+ctx.textAlign = "center";
+
 canvas.addEventListener("mousedown", (e) => {
     isPressed = true;
-
     x = e.offsetX;
     y = e.offsetY;
 });

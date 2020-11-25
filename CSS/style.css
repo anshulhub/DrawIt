@@ -19,11 +19,14 @@ body {
 canvas {
     border: 2px solid gray;
     max-width: fit-content;
-
+    /* font-size: 40px; */
 }
+
 
 .toolbox {
     background-color: #3b4148;
+    /* background-color: rgb(7, 107, 221); */
+
     border: 1px solid rebeccapurple;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -52,10 +55,7 @@ canvas {
 .toolbox > *:focus{
     outline: none;
 }
-/* .toolbar > *:nth-child(){
-    margin-left: auto;
-    display: none;
-} */
+
 .toolbox > *:nth-child(5) {
     background-color: #3b4148;
 align-items: center;
@@ -64,19 +64,14 @@ margin-left: 33%;
 padding: 20px;
 align-self: center;
 }
-/* .toolbox:nth-child(5){
-    border: 1px solid red;
-    margin: 50px;
-    padding: 50px;
 
-} */
 .toolbox h2{
     font-size: 50px;
-    /* display: none; */
     color: white;
     font-family: 'Sacramento', cursive;
     text-align: center;
     align-items: center;
+    cursor: pointer;
 }
 .toolbox h2:hover{
     color: #a7aeb6;
